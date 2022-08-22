@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cricket Score</title>
+  </head>
+  <body>
+    <h1 class="app-name">CRICKET SCORE MANAGER</h1>
+    <main>
+      <div class="form-container">
+        <div class="container">
+          <label for="player-name">Player Name</label>
+          <input id="player" type="text" placeholder="Write player's name" />
+        </div>
+        <div class="container">
+          <label for="match"> Match</label>
+          <input id="match" type="number" placeholder="Enter Total Match" />
+        </div>
+        <div class="container">
+          <label for="run">Run</label>
+          <input id="run" type="number" placeholder="Enter Run" />
+        </div>
+        <div class="container">
+          <label for="ball-faced">Ball faced</label>
+          <input
+            id="ball-faced"
+            type="number"
+            placeholder="Enter no. of Ball "
+          />
+        </div>
+        <div class="container">
+          <label for="six">Six</label>
+          <input id="six" type="number" placeholder="No. of sixes" />
+        </div>
+        <div class="container">
+          <label for="four">Four</label>
+          <input id="four" type="number" placeholder="No. of fours" />
+        </div>
+
+        <div class="container">
+          <label for="over-bowled">Overs bowled</label>
+          <input id="over-bowled" type="number" placeholder="Overs Bowled" />
+        </div>
+        <div class="container">
+          <label for="wicket">Wicket</label>
+          <input id="wicket" type="number" placeholder="Wickets taken" />
+        </div>
+        <div class="container">
+          <label for="catch">Catch</label>
+          <input id="catch" type="number" placeholder="Catch" />
+        </div>
+
+        <div class="button_container">
+          <button class="btn" id="add">Add Player</button>
+        </div>
+      </div>
+      <div class="scorecard-table" id="scoreboard">
+          <h2 class="app-name">Leaderboard</h2>
+        <table class="player-history" id="history">
+          <tr>
+            <th>Player Name</th>
+            <th>Matches played</th>
+            <th>Run Scored</th>
+            <th>Ball Played</th>
+            <th>Sixes</th>
+            <th>Fours</th>
+            <th>Over bowled</th>
+            <th>Wicket taken</th>
+            <th>Catches</th>
+            <th>Total Points</th>
+          </tr>
+        </table>
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
