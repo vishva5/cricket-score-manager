@@ -1,4 +1,4 @@
-# cricket-score-manager.github.io
+# CRICKET SCORE MANAGER
 
 This is a web version for updating the Cricket Stats of players and displaying the LEADERBOARD of players.
 1. Adding cricket stats of a player 
