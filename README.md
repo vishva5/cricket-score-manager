@@ -22,3 +22,5 @@ Leaderboard will updated according to the point system as follows:
 5. For every catch -> 8 points 
 
 
+Check out live version of CRICKET SCORE MANAGER :-
+https://vishva5.github.io/cricket-score-manager.github.io/
