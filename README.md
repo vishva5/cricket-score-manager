@@ -1,5 +1,8 @@
 # CRICKET SCORE MANAGER
 
+Check out live version of CRICKET SCORE MANAGER :-
+https://vishva5.github.io/cricket-score-manager.github.io/
+
 This is a web version for updating the Cricket Stats of players and displaying the LEADERBOARD of players.
 1. Adding cricket stats of a player 
 2. Updating cricket stats of a existing player's data
@@ -22,5 +25,3 @@ Leaderboard will updated according to the point system as follows:
 5. For every catch -> 8 points 
 
 
-Check out live version of CRICKET SCORE MANAGER :-
-https://vishva5.github.io/cricket-score-manager.github.io/
